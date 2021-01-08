@@ -15,6 +15,7 @@ O NEXTJS é um framework para trabalhar com ReactJS, com o intuito de aumentar a
 - Páginas e rotas
 - Rotas dinâmicas
 - Uso dos Styled Components
+- Uso de servidor fake(json-server)
 
 ## Instalação
 
@@ -22,4 +23,5 @@ O NEXTJS é um framework para trabalhar com ReactJS, com o intuito de aumentar a
 `git clone https://github.com/gustavo2892/curso-nextjs.git`.
 2. Navegue até o diretório da aplicação `cd curso-nextjs`.
 3. Rode `yarn` ou `npm i` para instalar todas as dependências.<br />
-4. Rode `yarn dev` ou `npm run dev` e aguarde o sistema ser aberto em `http://localhost:3000`.
+4. Execute o comando `npx json-server server.json -p 3333 -w`.<br />
+5. Rode `yarn dev` ou `npm run dev` e aguarde o sistema ser aberto em `http://localhost:3000`.
