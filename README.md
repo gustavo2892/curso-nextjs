@@ -23,6 +23,7 @@ O NEXTJS é um framework para trabalhar com ReactJS, com o intuito de aumentar a
 - Incremental Static Generation
 - Página 404 customizada
 - Import dinâmico
+- Lazy load de components
 
 ## Instalação
 
